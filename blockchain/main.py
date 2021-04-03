@@ -15,6 +15,9 @@ async def start_command():
 @router.handler
 @commonfilters.command('/help')
 async def start_command():
-    await SendMessage(context.user.user_id, 'Some userful help!').send()
+    text = ""
+    context.
+
+    await SendMessage(context.user.user_id, text).send()
 
 UpdatesExecutor.run(bot)
