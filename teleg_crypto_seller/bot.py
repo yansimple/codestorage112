@@ -86,7 +86,7 @@ def callback_inline(call):
         callback_button1 = types.InlineKeyboardButton(text="250$", callback_data="answ7")
         callback_button2 = types.InlineKeyboardButton(text="1000$", callback_data="answ7")
         callback_button3 = types.InlineKeyboardButton(text="5000$", callback_data="answ7")
-        callback_button2 = types.InlineKeyboardButton(text="10000$", callback_data="answ7")
+        callback_button4 = types.InlineKeyboardButton(text="10000$", callback_data="answ7")
         keyboard.add(callback_button1)
         keyboard.add(callback_button2)
         keyboard.add(callback_button3)
