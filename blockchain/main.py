@@ -1,7 +1,8 @@
 # -*- coding: utf-8 -*-
 import json
 import telebot
-
+import urlopen
+import requests
 token = "880113181:AAH7gjTlSprxkVjavHT-lvHb5tnwV1ioLO8"
 bot = telebot.TeleBot(token)
 
